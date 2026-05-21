@@ -1,0 +1,33 @@
+# Data files — never commit
+Data/
+Outputs/
+*.xlsx
+*.csv
+*.json
+
+# Anything explicitly marked private
+*_PRIVATE.*
+*_private.*
+name_mapping*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environments
+.env
+venv/
+.venv/
+env/
+
+# Model weights and large binaries
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# OS junk
+.DS_Store
+Thumbs.db
